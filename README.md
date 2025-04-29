@@ -1,3 +1,3 @@
 # case_study
-# Bouncing Ball Game
-# Quản lý bán hàng
+# Bài 1: Bouncing Ball Game
+# Bài 2: Quản lý bán hàng
