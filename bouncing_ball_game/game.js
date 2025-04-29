@@ -12,7 +12,7 @@ const GAME_HEIGHT = 400;
 const BALL_SIZE = 20;
 const BAR_WIDTH = 100;
 const BAR_HEIGHT = 15;
-const INITIAL_BALL_SPEED = 3;
+const INITIAL_BALL_SPEED = 5;
 const BAR_SPEED = 8;
 
 // Trạng thái trò chơi
