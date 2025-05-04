@@ -2,19 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bouncing Ball Game</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <h1>Bouncing Ball Game</h1>
-<div id="scoreDisplay">Score: 0</div>
-<div id="gameContainer">
-  <div id="ball"></div>
-  <div id="bar"></div>
-  <div id="gameOver">Game Over!</div>
+
+<div id="inputNameContainer">
+  <input type="text" id="playerNameInput" placeholder="Enter your name">
+  <button id="startGameBtn">Start Game</button>
 </div>
-<button id="restartBtn">Play Again</button>
+
+<div id="mainContent" style="display: none;">
+  <div id="leftPanel">
+    <h2>🏆 Top 3 High Scores</h2>
+    <ul id="highScoreList"></ul>
+  </div>
+
+  <div id="rightPanel">
+    <div id="scoreDisplay">Score: 0 | High Score: 0</div>
+    <div id="gameContainer">
+      <div id="ball"></div>
+      <div id="bar"></div>
+      <div id="gameOver">Game Over!</div>
+    </div>
+    <button id="restartBtn">Play Again</button>
+  </div>
+</div>
 
 <script src="game.js"></script>
 </body>
