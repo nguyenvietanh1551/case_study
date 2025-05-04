@@ -1,7 +1,4 @@
 # case_study
 # Bài 1: Bouncing Ball Game
-<<<<<<< Updated upstream
+======= Updated =======
 # Bài 2: Quản lý bán hàng
-=======
-# Bài 2: Quản lý bán hàng
->>>>>>> Stashed changes
